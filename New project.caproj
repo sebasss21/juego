@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2iy15798ovcq3</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>651</width>
+        <height>1166</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Button" sid="411617628375155">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Button2" sid="641689385296462">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="bruja" sid="314854288738916">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="137976151464675">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910468840946462" speed="5">
+                    <frame duration="1" hotspotX="0.273859" hotspotY="0.2147" original-source="C:\Users\Astrid\Downloads\WhatsApp_Image_2024-10-09_at_1.39.29_PM-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.327683" y="0.395601" />
+                            <point x="0.309129" y="0.0516048" />
+                            <point x="0.871987" y="0.267212" />
+                            <point x="0.825621" y="0.503868" />
+                            <point x="0.873305" y="0.831073" />
+                            <point x="0.510374" y="0.875432" />
+                            <point x="0.106215" y="0.70295" />
+                            <point x="0.137445" y="0.51354" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.267635" hotspotY="0.216634" original-source="C:\Users\Astrid\Desktop\Proyecto\bruja_2-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.384146" y="0.372781" />
+                            <point x="0.5" y="0.0591716" />
+                            <point x="0.76626" y="0.226824" />
+                            <point x="0.813008" y="0.499014" />
+                            <point x="0.711382" y="0.719921" />
+                            <point x="0.5" y="0.938856" />
+                            <point x="0.195122" y="0.810651" />
+                            <point x="0.367886" y="0.499014" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="117290857307336">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="PincelInferior" sid="740584585961409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="939730633439447" speed="5">
+                    <frame duration="1" hotspotX="0.484" hotspotY="0.006" original-source="C:\Users\Astrid\Downloads\WhatsApp_Image_2024-10-15_at_7.20.32_AM-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.45228" y="0.016" />
+                            <point x="0.539719" y="0" />
+                            <point x="0.553762" y="0.432" />
+                            <point x="0.557762" y="0.972" />
+                            <point x="0.49954" y="1" />
+                            <point x="0.442238" y="0.968" />
+                            <point x="0.410238" y="0.54" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PincelSuperior" sid="447386680689796">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150752643756739" speed="5">
+                    <frame duration="1" hotspotX="0.516" hotspotY="0.99" original-source="C:\Users\Astrid\Downloads\WhatsApp_Image_2024-10-15_at_7.20.33_AM-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.595719" y="0.988" />
+                            <point x="0.38428" y="0.972" />
+                            <point x="0.442237" y="0.588" />
+                            <point x="0.434237" y="0.084" />
+                            <point x="0.50046" y="0" />
+                            <point x="0.561762" y="0.124" />
+                            <point x="0.545762" y="0.596" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nube" sid="569754779035165">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="259956595065533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Astrid\Desktop\Proyecto\nube_juego-removebg-preview (1).png">
+                        <collision-poly>
+                            <point x="0.75625" y="0.75625" />
+                            <point x="0.24375" y="0.75625" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtTiempo" sid="432550702234436">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sonidogolpe" sid="494174609910017">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Text2" sid="783622526738539">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="934029033863092">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Fondo" sid="234992792870708">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Astrid\Desktop\Proyecto\fondo bruja (1).png" />
+        </object-type>
+        <object-type name="Sprite" sid="939207744182568">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543572249103812" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Moneda" sid="840373491012635">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="814646609010706" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Astrid\Desktop\Proyecto\pngwing.com (14).png">
+                        <collision-poly>
+                            <point x="0.187662" y="0.192154" />
+                            <point x="0.5" y="0.0558511" />
+                            <point x="0.813636" y="0.190824" />
+                            <point x="0.937662" y="0.5" />
+                            <point x="0.816234" y="0.811835" />
+                            <point x="0.5" y="0.948803" />
+                            <point x="0.185714" y="0.80984" />
+                            <point x="0.0655844" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtPuntaje" sid="770648395769608">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="limiteIzquierdo" sid="401999288840321">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="198534262524752" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Inicio.xml</layout>
+        <layout>Juego.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Evento_inicio.xml</event-sheet>
+        <event-sheet>Evento_juego.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="3" />
+        <global-instance type="Sonidogolpe" uid="8">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="brass-fail-1-c-185076.ogg" />
+        <file name="game-music-loop-7-145285.ogg" />
+        <file name="Scary-witch-laugh-sound-effect-_-Risa-de-bruja-efecto-de-sonido_M4A_128K_.ogg" />
+        <file name="Sonido-golpe_M4A_128K_.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
